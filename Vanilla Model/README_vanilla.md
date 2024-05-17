@@ -48,7 +48,7 @@ parser.add_argument('-bidir', '--bidirectional', help='Choices:["True","False"]'
 parser.add_argument('-tf', '--teacher_forcing', help='choices:[0,0.2,0.3,0.5,0.7]',type=float, default=0.7)
 
 ```
- - To run code :
+ - To run train_a.py :
  - Note add '!' before any command only if you are running in colab or kaggle , else no need to add '!' before any command to run in command line
     - first Load dataset using :
      ```
@@ -56,57 +56,17 @@ parser.add_argument('-tf', '--teacher_forcing', help='choices:[0,0.2,0.3,0.5,0.7
 
      ```
 - This will run code for some default parameters. To generate the best result refer the below configuration:
+- To run the code with default parameters
  ```
- 
+ !python train_a.py
 
  ```
+-To run the code with custom parameters
+```
+!python train_vanilla.py -wp Assignment_3_DL_test -we cs22s030 -ct gru -b 128 -o adam -lr 0.0002 -em 512 -hs 512 -dp 0.1 -nl 3 -bidir False -tf 0.7
+```
  
- ## Attention Seq2Seq:
-### To run the code:
-- **Usage** 
-```
-usage: Dl3_Attn_Seq2Seq.py
-       [-h]
-       [-wp WANDB_PROJECT]
-       [-we WANDB_ENTITY]
-       [-ct CELL_TYPE]
-       [-b BATCH_SIZE]
-       [-o OPTIMIZER]
-       [-lr LEARNING_RATE]
-       [-em EMBEDDING_SIZE]
-       [-hs HIDDEN_SIZE]
-       [-dp DROPOUT]
-       [-nl NUM_LAYERS]
-       [-bidir BIDIRECTIONAL]
-       [-tf TEACHER_FORCING]
-
-```
- - To run code in cloab :
-    - first Load dataset using :
-     ```
-     !wget 'https://drive.google.com/uc?export=download&id=1uRKU4as2NlS9i8sdLRS1e326vQRdhvfw' -O dataset.zip && unzip -q dataset.zip
-
-     ```
-     - After loading the dataset and mounting the .py file in colab run:
-      ```
-      !python3 "/content/drive/My Drive/Colab Notebooks/Dl3_Attn_Seq2Seq.py" 
-      ```
-- This will run code for some default parameters. To generate the best result refer the below configuration:
-```
-sweep_config= {
-    'parameters' : {
-        'cell_type' : { 'values' : ['lstm'] },
-        'dropout' : { 'values' : [0.2]},
-        'embedding_size' : {'values' : [256]},
-        'num_layers' : {'values' : [1]},
-        'batch_size' : {'values' : [32]},
-        'hidden_size' : {'values' : [512]},
-        'bidirectional' : {'values' : [False]},
-        'learning_rate':{"values": [0.001]},
-        'optim':{"values": ['nadam']},
-       'teacher_forcing':{"values":[0.1]}
-    }
-}
-
-``` 
+## Author
+[Jai Kishan Dewangan]([https://github.com/Shreyash007](https://github.com/jaiksd/DeepLearning_Assignment_3))
+CS23M030
  
