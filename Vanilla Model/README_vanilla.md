@@ -63,7 +63,7 @@ parser.add_argument('-tf', '--teacher_forcing', help='choices:[0,0.2,0.3,0.5,0.7
  ```
 -To run the code with custom parameters
 ```
-!python train_vanilla.py -wp Assignment_3_DL_test -we cs22s030 -ct gru -b 128 -o adam -lr 0.0002 -em 512 -hs 512 -dp 0.1 -nl 3 -bidir False -tf 0.7
+!python train_a.py -wp Assignment_3_DL_test -we cs22s030 -ct gru -b 128 -o adam -lr 0.0002 -em 512 -hs 512 -dp 0.1 -nl 3 -bidir False -tf 0.7
 ```
  
 ## Author
