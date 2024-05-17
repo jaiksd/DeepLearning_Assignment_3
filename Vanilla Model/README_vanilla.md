@@ -1,3 +1,33 @@
+# CS6910-Assignment3
+## Problem Statement
+Use recurrent neural networks to build a transliteration system, using pytorch.
+
+## Prerequisites
+
+```
+python 3.9
+numpy 1.21.5
+pytorch
+wget
+```
+ - Clone/download  this repository
+ - I have conducted all my experiments in Google Collab, for running in google colab, install wandb and wget(for importing dataset) using following command 
+ - Enable GPU on colab for faster training
+ 
+  ``` 
+  !pip install wandb 
+  !pip install wget
+  ```
+ - For running locally, install wandb and other required libraries using following command  
+  ``` 
+  pip install wandb
+  pip install numpy
+  pip install pytorch
+  ```
+
+
+
+
 # CS6910_Assignment_3
 
 ## Wandb Report Link: 
