@@ -261,11 +261,11 @@ def data_loading(bs):
     '''
     # Define the paths for the train, validation, and test CSV files
     def get_test_data_path():
-      return "/content/drive/MyDrive/aksharantar_sampled/hin/hin_test.csv"
+      return "/content/aksharantar_sampled/hin/hin_test.csv"
     def get_val_data_path():
-      return "/content/drive/MyDrive/aksharantar_sampled/hin/hin_valid.csv"
+      return "/content/aksharantar_sampled/hin/hin_valid.csv"
     def get_train_data_path():
-      return "/content/drive/MyDrive/aksharantar_sampled/hin/hin_train.csv"
+      return "/content/aksharantar_sampled/hin/hin_train.csv"
     test_path  = get_test_data_path()
     val_path  = get_val_data_path()
     train_path  = get_train_data_path()
