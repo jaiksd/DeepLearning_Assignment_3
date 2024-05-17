@@ -1,7 +1,7 @@
 # CS6910_Assignment_3
 
 ## Wandb Report Link: 
-https://wandb.ai/cs22s015/CS6910_Assignment3/reports/Assignment-3--Vmlldzo0NDE3Nzg0
+[https://wandb.ai/cs22s015/CS6910_Assignment3/reports/Assignment-3--Vmlldzo0NDE3Nzg0](https://wandb.ai/cs23m030/Assignment_3_DL/reports/CS6910-Assignment-3--Vmlldzo3OTU3MzY4)
 ## Vanilla Seq2Seq:
 ### To run the code:
 - **Usage** 
