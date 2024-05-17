@@ -48,7 +48,7 @@ parser.add_argument('-bidir', '--bidirectional', help='Choices:["True","False"]'
 parser.add_argument('-tf', '--teacher_forcing', help='choices:[0,0.2,0.3,0.5,0.7]',type=float, default=0.7)
 
 ```
- - To run train_a.py :
+ - To run train_b.py :
  - Note add '!' before any command only if you are running in colab or kaggle , else no need to add '!' before any command to run in command line
     - first Load dataset using :
      ```
