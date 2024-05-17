@@ -34,11 +34,13 @@ wget
 - There is a separate folder for vanilla and attention models, the final updated codes are inside those folders
 - There is a separate readme file for both parts inside the folders
 # Vanilla code
+-Vanilla link:
 [Vanilla](https://github.com/jaiksd/DeepLearning_Assignment_3/tree/main/Vanilla%20Model)
 -README Vanilla
 [Readme_vanilla](https://github.com/jaiksd/DeepLearning_Assignment_3/blob/main/Vanilla%20Model/README_vanilla.md)
 
 # Attention code
+- Attention link
 [Attention](https://github.com/jaiksd/DeepLearning_Assignment_3/tree/main/Attention%20Model)
 -README Attention
 [Readme_attention](https://github.com/jaiksd/DeepLearning_Assignment_3/blob/main/Attention%20Model/README_Attention.md)
