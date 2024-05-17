@@ -68,8 +68,10 @@ parser.add_argument('-tf', '--teacher_forcing', help='choices:[0,0.2,0.3,0.5,0.7
 ## Note
 - Please make sure to update the path of train,test and val data in the data_loading() function according to your dataset directory.
 - Make sure to give the correct filename in the commandline.
+- 
 ## Train file:
 [Train attention](https://github.com/jaiksd/DeepLearning_Assignment_3/blob/main/Attention%20Model/train_b.py)
+
 ## Author
 [Jai Kishan Dewangan](https://github.com/jaiksd/DeepLearning_Assignment_3)
 CS23M030
