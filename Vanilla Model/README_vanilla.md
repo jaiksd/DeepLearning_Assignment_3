@@ -27,7 +27,7 @@ wget
 
 
 ## Dataset
-- We use [Aksharantar dataset]([https://drive.google.com/file/d/1uRKU4as2NlS9i8sdLRS1e326vQRdhvfw/view](https://drive.google.com/uc?export=download&id=1tGIO4-IPNtxJ6RQMmykvAfY_B0AaLY5A)) dataset for our experiments.
+- We use [Aksharantar dataset](https://drive.google.com/uc?export=download&id=1tGIO4-IPNtxJ6RQMmykvAfY_B0AaLY5A) dataset for our experiments.
 ## Wandb Report Link: 
 [Report wandb](https://wandb.ai/cs23m030/Assignment_3_DL/reports/CS6910-Assignment-3--Vmlldzo3OTU3MzY4)
 ## Vanilla Seq2Seq:
