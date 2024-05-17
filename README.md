@@ -47,6 +47,8 @@ wget
 -README Attention
 [Readme_attention](https://github.com/jaiksd/DeepLearning_Assignment_3/blob/main/Attention%20Model/README_Attention.md)
 
+# Please refer to the readme files inside the folders, it contains information about how to run the train files.
+
 ## Author
 [Jai Kishan Dewangan](https://github.com/jaiksd/DeepLearning_Assignment_3)
 CS23M030
