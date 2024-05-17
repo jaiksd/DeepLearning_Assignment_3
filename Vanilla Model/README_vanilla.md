@@ -65,7 +65,8 @@ parser.add_argument('-tf', '--teacher_forcing', help='choices:[0,0.2,0.3,0.5,0.7
 ```
 !python train_a.py -wp Assignment_3_DL_test -we cs22s030 -ct gru -b 128 -o adam -lr 0.0002 -em 512 -hs 512 -dp 0.1 -nl 3 -bidir False -tf 0.7
 ```
- 
+## Note
+Please make sure to update the path of train,test and val data in the data_loading() function according to your dataset directory
 ## Author
 [Jai Kishan Dewangan]([https://github.com/Shreyash007](https://github.com/jaiksd/DeepLearning_Assignment_3))
 CS23M030
